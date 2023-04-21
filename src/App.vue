@@ -10,8 +10,8 @@
 
 <script>
 import { mapActions, mapGetters } from 'vuex'
-import HeroesTable from '/components/HeroesTable'
-import HeroesForm from '/components/HeroesForm'
+import HeroesTable from './components/HeroesTable'
+import HeroesForm from './components/HeroesForm.vue'
 
 export default {
   name: 'App',
